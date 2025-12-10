@@ -1,0 +1,5 @@
+export default interface ModalProps {
+  open: boolean;
+  onClose: () => void;
+  children: React.ReactNode;
+}
